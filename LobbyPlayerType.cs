@@ -1,12 +1,8 @@
-using Google.Protobuf.Reflection;
-
-namespace Axlebolt.Bolt.Protobuf
+namespace Axlebolt.Bolt.Matchmaking
 {
 	public enum LobbyPlayerType
 	{
-		[OriginalName("MEMBER")]
 		Member = 0,
-		[OriginalName("SPECTATOR")]
 		Spectator = 1
 	}
 }
